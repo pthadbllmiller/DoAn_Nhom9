@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Main_Admin</class>
+ <widget class="QMainWindow" name="Main_Admin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1468</width>
+    <height>1148</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Admin</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btn_home">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>105</y>
+      <width>241</width>
+      <height>48</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Black</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background: transparent;
+    border: none;
+    text-align: left;
+    padding: 10px 15px;
+    color: #4A4A4A;
+}
+
+QPushButton:hover {
+    background-color: rgba(0, 0, 0, 30);
+    border-radius: 6px;
+}
+
+QPushButton:pressed {
+    background-color: rgba(0, 0, 0, 50);
+}</string>
+    </property>
+    <property name="text">
+     <string>Trang chủ</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_room">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>156</y>
+      <width>241</width>
+      <height>48</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Black</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background: transparent;
+    border: none;
+    text-align: left;
+    padding: 10px 15px;
+    color: #4A4A4A;
+}
+
+QPushButton:hover {
+    background-color: rgba(0, 0, 0, 30);
+    border-radius: 6px;
+}
+
+QPushButton:pressed {
+    background-color: rgba(0, 0, 0, 50);
+}</string>
+    </property>
+    <property name="text">
+     <string>Phòng</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_customer">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>207</y>
+      <width>241</width>
+      <height>48</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Black</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background: transparent;
+    border: none;
+    text-align: left;
+    padding: 10px 15px;
+    color: #4A4A4A;
+}
+
+QPushButton:hover {
+    background-color: rgba(0, 0, 0, 30);
+    border-radius: 6px;
+}
+
+QPushButton:pressed {
+    background-color: rgba(0, 0, 0, 50);
+}</string>
+    </property>
+    <property name="text">
+     <string>Khách thuê</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_contract">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>258</y>
+      <width>241</width>
+      <height>48</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Black</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background: transparent;
+    border: none;
+    text-align: left;
+    padding: 10px 15px;
+    color: #4A4A4A;
+}
+
+QPushButton:hover {
+    background-color: rgba(0, 0, 0, 30);
+    border-radius: 6px;
+}
+
+QPushButton:pressed {
+    background-color: rgba(0, 0, 0, 50);
+}</string>
+    </property>
+    <property name="text">
+     <string>Hợp đồng</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_eIndex">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>309</y>
+      <width>241</width>
+      <height>48</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Black</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background: transparent;
+    border: none;
+    text-align: left;
+    padding: 10px 15px;
+    color: #4A4A4A;
+}
+
+QPushButton:hover {
+    background-color: rgba(0, 0, 0, 30);
+    border-radius: 6px;
+}
+
+QPushButton:pressed {
+    background-color: rgba(0, 0, 0, 50);
+}</string>
+    </property>
+    <property name="text">
+     <string>Điện nước</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_bill">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>360</y>
+      <width>241</width>
+      <height>48</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Black</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background: transparent;
+    border: none;
+    text-align: left;
+    padding: 10px 15px;
+    color: #4A4A4A;
+}
+
+QPushButton:hover {
+    background-color: rgba(0, 0, 0, 30);
+    border-radius: 6px;
+}
+
+QPushButton:pressed {
+    background-color: rgba(0, 0, 0, 50);
+}</string>
+    </property>
+    <property name="text">
+     <string>Hóa đơn</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_request">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>411</y>
+      <width>241</width>
+      <height>48</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Black</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background: transparent;
+    border: none;
+    text-align: left;
+    padding: 10px 15px;
+    color: #4A4A4A;
+}
+
+QPushButton:hover {
+    background-color: rgba(0, 0, 0, 30);
+    border-radius: 6px;
+}
+
+QPushButton:pressed {
+    background-color: rgba(0, 0, 0, 50);
+}</string>
+    </property>
+    <property name="text">
+     <string>Yêu cầu</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_staff">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>462</y>
+      <width>241</width>
+      <height>48</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Black</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background: transparent;
+    border: none;
+    text-align: left;
+    padding: 10px 15px;
+    color: #4A4A4A;
+}
+
+QPushButton:hover {
+    background-color: rgba(0, 0, 0, 30);
+    border-radius: 6px;
+}
+
+QPushButton:pressed {
+    background-color: rgba(0, 0, 0, 50);
+}</string>
+    </property>
+    <property name="text">
+     <string>Nhân viên</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_report">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>513</y>
+      <width>241</width>
+      <height>48</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Black</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background: transparent;
+    border: none;
+    text-align: left;
+    padding: 10px 15px;
+    color: #4A4A4A;
+}
+
+QPushButton:hover {
+    background-color: rgba(0, 0, 0, 30);
+    border-radius: 6px;
+}
+
+QPushButton:pressed {
+    background-color: rgba(0, 0, 0, 50);
+}</string>
+    </property>
+    <property name="text">
+     <string>Báo cáo</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_history">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>564</y>
+      <width>241</width>
+      <height>48</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Black</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background: transparent;
+    border: none;
+    text-align: left;
+    padding: 10px 15px;
+    color: #4A4A4A;
+}
+
+QPushButton:hover {
+    background-color: rgba(0, 0, 0, 30);
+    border-radius: 6px;
+}
+
+QPushButton:pressed {
+    background-color: rgba(0, 0, 0, 50);
+}</string>
+    </property>
+    <property name="text">
+     <string>Lịch sử </string>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>2</x>
+      <y>890</y>
+      <width>279</width>
+      <height>3</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_profile">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>903</y>
+      <width>241</width>
+      <height>48</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Black</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background: transparent;
+    border: none;
+    text-align: left;
+    padding: 10px 15px;
+    color: #4A4A4A;
+}
+
+QPushButton:hover {
+    background-color: rgba(0, 0, 0, 30);
+    border-radius: 6px;
+}
+
+QPushButton:pressed {
+    background-color: rgba(0, 0, 0, 50);
+}</string>
+    </property>
+    <property name="text">
+     <string>Trang cá nhân</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_logOut">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>950</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Black</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background: transparent;
+    border: none;
+    text-align: left;
+    padding: 10px 15px;
+    color: #4A4A4A;
+}
+
+QPushButton:hover {
+    background-color: rgba(0, 0, 0, 30);
+    border-radius: 6px;
+}
+
+QPushButton:pressed {
+    background-color: rgba(0, 0, 0, 50);
+}</string>
+    </property>
+    <property name="text">
+     <string>Đăng xuất</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>17</x>
+      <y>22</y>
+      <width>255</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Black</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Quản lý phòng trọ    &lt;</string>
+    </property>
+   </widget>
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>1</y>
+      <width>1170</width>
+      <height>2000</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="page">
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>550</y>
+        <width>1121</width>
+        <height>400</height>
+       </rect>
+      </property>
+      <column>
+       <property name="text">
+        <string>Phòng</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>18</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Nội dung</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>18</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Thời gian gửi</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>18</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Trạng thái</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>18</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Thao tác</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>18</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+      </column>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>20</y>
+        <width>371</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#9028bd;&quot;&gt;TỔNG QUAN HỆ THỐNG&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>175</y>
+        <width>260</width>
+        <height>120</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+border:1px solid #e0e0e0;
+border-radius:12px;
+padding:8px;
+qproperty-alignment: AlignCenter;
+color:#9028BD; 
+}</string>
+      </property>
+      <property name="text">
+       <string>100</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>180</y>
+        <width>161</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Tổng số phòng</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_2">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>175</y>
+        <width>260</width>
+        <height>120</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+border:1px solid #e0e0e0;
+border-radius:12px;
+padding:8px;
+qproperty-alignment: AlignCenter;
+color:#9028BD; 
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_3">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>175</y>
+        <width>260</width>
+        <height>120</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+border:1px solid #e0e0e0;
+border-radius:12px;
+padding:8px;
+qproperty-alignment: AlignCenter;
+color:#9028BD; 
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_4">
+      <property name="geometry">
+       <rect>
+        <x>890</x>
+        <y>175</y>
+        <width>251</width>
+        <height>120</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+border:1px solid #e0e0e0;
+border-radius:12px;
+padding:8px;
+qproperty-alignment: AlignCenter;
+color:#9028BD; 
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>427</x>
+        <y>380</y>
+        <width>331</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>18</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#5d5fef;&quot;&gt;Yêu cầu sửa chữa mới nhất&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2"/>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1468</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

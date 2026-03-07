@@ -1,0 +1,32 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Mar  6 21:02:42 2026
+
+@author: ThanhHa
+"""
+
+{
+  "rooms": [
+    {
+      "id": "A101",
+      "type": "Nhỏ",
+      "capacity": 2,
+      "price": 3200000,
+      "status": "Trống"
+    },
+    {
+      "id": "A102",
+      "type": "Nhỏ",
+      "capacity": 2,
+      "price": 3200000,
+      "status": "Đã thuê"
+    },
+    {
+      "id": "A103",
+      "type": "Lớn",
+      "capacity": 4,
+      "price": 6000000,
+      "status": "Trống"
+    }
+  ]
+}
