@@ -1,0 +1,23 @@
+[
+    {
+        "Phòng": "A101",
+        "Loại phòng": "Nhỏ",
+        "Diện tích(m2)": "35",
+        "Giá Thuê(đ)": "3500000",
+        "Trạng Thái": "Đã cho thuê"
+    },
+    {
+        "Phòng": "A102",
+        "Loại phòng": "Lớn",
+        "Diện tích(m2)": "50",
+        "Giá Thuê(đ)": "4500000",
+        "Trạng Thái": "Đã cho thuê"
+    },
+    {
+        "Phòng": "A103",
+        "Loại phòng": "Nhỏ",
+        "Diện tích(m2)": "35",
+        "Giá Thuê(đ)": "3500000",
+        "Trạng Thái": "Chưa cho thuê"
+    }
+]

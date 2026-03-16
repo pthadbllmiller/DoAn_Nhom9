@@ -1,0 +1,23 @@
+[
+    {
+        "maKH": "KA1011",
+        "hoten": "Nguyễn Văn A",
+        "sdt": "0908565321",
+        "gt": "Nam",
+        "sophong": "A101"
+    },
+    {
+        "maKH": "KA1012",
+        "hoten": "Nguyễn Văn B",
+        "sdt": "0902344324",
+        "gt": "Nam",
+        "sophong": "A101"
+    },
+    {
+        "maKH": "KA1021",
+        "hoten": "Trần Thị B",
+        "sdt": "0904432432",
+        "gt": "Nữ",
+        "sophong": "A102"
+    }
+]

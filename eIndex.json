@@ -1,0 +1,23 @@
+[
+    {
+        "sophong": "A101",
+        "khachthue": "Nguyễn Văn A",
+        "dien": "120",
+        "nuoc": "5",
+        "thangnam": "2/2026"
+    },
+    {
+        "sophong": "A102",
+        "khachthue": "Trần Thị B",
+        "dien": "110",
+        "nuoc": "6",
+        "thangnam": "2/2026"
+    },
+    {
+        "sophong": "A103",
+        "khachthue": "Lê Thị A",
+        "dien": "150",
+        "nuoc": "8",
+        "thangnam": "2/2026"
+    }
+]
