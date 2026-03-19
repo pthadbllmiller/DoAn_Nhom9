@@ -1,0 +1,812 @@
+[
+    {
+        "phong": "A101",
+        "khachthue": "Nguyễn Văn An",
+        "thangnam": "2/2026",
+        "dien_cu": "754",
+        "dien_moi": "832",
+        "nuoc_cu": "13",
+        "nuoc_moi": "41",
+        "lydo": ""
+    },
+    {
+        "phong": "A102",
+        "khachthue": "Trần Ngọc Hoa",
+        "thangnam": "2/2026",
+        "dien_cu": "381",
+        "dien_moi": "493",
+        "nuoc_cu": "38",
+        "nuoc_moi": "47",
+        "lydo": ""
+    },
+    {
+        "phong": "A103",
+        "khachthue": "Lê Thanh Mai",
+        "thangnam": "2/2026",
+        "dien_cu": "204",
+        "dien_moi": "427",
+        "nuoc_cu": "79",
+        "nuoc_moi": "86",
+        "lydo": ""
+    },
+    {
+        "phong": "A104",
+        "khachthue": "Phạm Quang Dũng",
+        "thangnam": "2/2026",
+        "dien_cu": "704",
+        "dien_moi": "862",
+        "nuoc_cu": "14",
+        "nuoc_moi": "19",
+        "lydo": ""
+    },
+    {
+        "phong": "A105",
+        "khachthue": "Hoàng Lan Trang",
+        "thangnam": "2/2026",
+        "dien_cu": "195",
+        "dien_moi": "300",
+        "nuoc_cu": "39",
+        "nuoc_moi": "60",
+        "lydo": ""
+    },
+    {
+        "phong": "A107",
+        "khachthue": "Vũ Mai Ngân",
+        "thangnam": "2/2026",
+        "dien_cu": "716",
+        "dien_moi": "772",
+        "nuoc_cu": "81",
+        "nuoc_moi": "92",
+        "lydo": ""
+    },
+    {
+        "phong": "A108",
+        "khachthue": "Phan Trọng Long",
+        "thangnam": "2/2026",
+        "dien_cu": "765",
+        "dien_moi": "994",
+        "nuoc_cu": "79",
+        "nuoc_moi": "97",
+        "lydo": ""
+    },
+    {
+        "phong": "A109",
+        "khachthue": "Đặng Hoàng Hương",
+        "thangnam": "2/2026",
+        "dien_cu": "325",
+        "dien_moi": "489",
+        "nuoc_cu": "85",
+        "nuoc_moi": "98",
+        "lydo": ""
+    },
+    {
+        "phong": "A110",
+        "khachthue": "Bùi Thị Phương",
+        "thangnam": "2/2026",
+        "dien_cu": "106",
+        "dien_moi": "350",
+        "nuoc_cu": "30",
+        "nuoc_moi": "57",
+        "lydo": ""
+    },
+    {
+        "phong": "A201",
+        "khachthue": "Đỗ Minh Quân",
+        "thangnam": "2/2026",
+        "dien_cu": "532",
+        "dien_moi": "669",
+        "nuoc_cu": "45",
+        "nuoc_moi": "54",
+        "lydo": ""
+    },
+    {
+        "phong": "A202",
+        "khachthue": "Hồ Thanh Diệu",
+        "thangnam": "2/2026",
+        "dien_cu": "320",
+        "dien_moi": "565",
+        "nuoc_cu": "53",
+        "nuoc_moi": "61",
+        "lydo": ""
+    },
+    {
+        "phong": "A203",
+        "khachthue": "Ngô Thu Hà",
+        "thangnam": "2/2026",
+        "dien_cu": "194",
+        "dien_moi": "341",
+        "nuoc_cu": "22",
+        "nuoc_moi": "38",
+        "lydo": ""
+    },
+    {
+        "phong": "A204",
+        "khachthue": "Dương Công Tuấn",
+        "thangnam": "2/2026",
+        "dien_cu": "452",
+        "dien_moi": "656",
+        "nuoc_cu": "43",
+        "nuoc_moi": "73",
+        "lydo": ""
+    },
+    {
+        "phong": "A205",
+        "khachthue": "Lý Mai Trâm",
+        "thangnam": "2/2026",
+        "dien_cu": "144",
+        "dien_moi": "380",
+        "nuoc_cu": "68",
+        "nuoc_moi": "90",
+        "lydo": ""
+    },
+    {
+        "phong": "A206",
+        "khachthue": "Nguyễn Kim Ngọc",
+        "thangnam": "2/2026",
+        "dien_cu": "227",
+        "dien_moi": "373",
+        "nuoc_cu": "20",
+        "nuoc_moi": "42",
+        "lydo": ""
+    },
+    {
+        "phong": "A207",
+        "khachthue": "Trần Đức An",
+        "thangnam": "2/2026",
+        "dien_cu": "400",
+        "dien_moi": "610",
+        "nuoc_cu": "89",
+        "nuoc_moi": "105",
+        "lydo": ""
+    },
+    {
+        "phong": "A208",
+        "khachthue": "Lê Thị Hoa",
+        "thangnam": "2/2026",
+        "dien_cu": "691",
+        "dien_moi": "790",
+        "nuoc_cu": "100",
+        "nuoc_moi": "107",
+        "lydo": ""
+    },
+    {
+        "phong": "A209",
+        "khachthue": "Phạm Ngọc Mai",
+        "thangnam": "2/2026",
+        "dien_cu": "146",
+        "dien_moi": "365",
+        "nuoc_cu": "39",
+        "nuoc_moi": "68",
+        "lydo": ""
+    },
+    {
+        "phong": "A210",
+        "khachthue": "Hoàng Hữu Dũng",
+        "thangnam": "2/2026",
+        "dien_cu": "396",
+        "dien_moi": "466",
+        "nuoc_cu": "39",
+        "nuoc_moi": "47",
+        "lydo": ""
+    },
+    {
+        "phong": "A301",
+        "khachthue": "Vũ Thu Trang",
+        "thangnam": "2/2026",
+        "dien_cu": "489",
+        "dien_moi": "610",
+        "nuoc_cu": "68",
+        "nuoc_moi": "93",
+        "lydo": ""
+    },
+    {
+        "phong": "A302",
+        "khachthue": "Phan Lan Ngân",
+        "thangnam": "2/2026",
+        "dien_cu": "473",
+        "dien_moi": "564",
+        "nuoc_cu": "57",
+        "nuoc_moi": "73",
+        "lydo": ""
+    },
+    {
+        "phong": "A303",
+        "khachthue": "Đặng Văn Long",
+        "thangnam": "2/2026",
+        "dien_cu": "314",
+        "dien_moi": "535",
+        "nuoc_cu": "44",
+        "nuoc_moi": "71",
+        "lydo": ""
+    },
+    {
+        "phong": "A304",
+        "khachthue": "Bùi Kim Hương",
+        "thangnam": "2/2026",
+        "dien_cu": "799",
+        "dien_moi": "1014",
+        "nuoc_cu": "19",
+        "nuoc_moi": "43",
+        "lydo": ""
+    },
+    {
+        "phong": "A306",
+        "khachthue": "Đỗ Hoàng Phương",
+        "thangnam": "2/2026",
+        "dien_cu": "750",
+        "dien_moi": "843",
+        "nuoc_cu": "78",
+        "nuoc_moi": "106",
+        "lydo": ""
+    },
+    {
+        "phong": "A307",
+        "khachthue": "Hồ Quang Quân",
+        "thangnam": "2/2026",
+        "dien_cu": "350",
+        "dien_moi": "441",
+        "nuoc_cu": "69",
+        "nuoc_moi": "86",
+        "lydo": ""
+    },
+    {
+        "phong": "A310",
+        "khachthue": "Ngô Ngọc Diệu",
+        "thangnam": "2/2026",
+        "dien_cu": "376",
+        "dien_moi": "589",
+        "nuoc_cu": "98",
+        "nuoc_moi": "120",
+        "lydo": ""
+    },
+    {
+        "phong": "A401",
+        "khachthue": "Dương Thanh Hà",
+        "thangnam": "2/2026",
+        "dien_cu": "324",
+        "dien_moi": "549",
+        "nuoc_cu": "51",
+        "nuoc_moi": "80",
+        "lydo": ""
+    },
+    {
+        "phong": "A403",
+        "khachthue": "Lý Trọng Tuấn",
+        "thangnam": "2/2026",
+        "dien_cu": "157",
+        "dien_moi": "265",
+        "nuoc_cu": "14",
+        "nuoc_moi": "44",
+        "lydo": ""
+    },
+    {
+        "phong": "A404",
+        "khachthue": "Nguyễn Lan Trâm",
+        "thangnam": "2/2026",
+        "dien_cu": "423",
+        "dien_moi": "575",
+        "nuoc_cu": "44",
+        "nuoc_moi": "51",
+        "lydo": ""
+    },
+    {
+        "phong": "A405",
+        "khachthue": "Trần Mai Ngọc",
+        "thangnam": "2/2026",
+        "dien_cu": "316",
+        "dien_moi": "511",
+        "nuoc_cu": "50",
+        "nuoc_moi": "61",
+        "lydo": ""
+    },
+    {
+        "phong": "A406",
+        "khachthue": "Lê Minh An",
+        "thangnam": "2/2026",
+        "dien_cu": "771",
+        "dien_moi": "948",
+        "nuoc_cu": "60",
+        "nuoc_moi": "85",
+        "lydo": ""
+    },
+    {
+        "phong": "A407",
+        "khachthue": "Phạm Hoàng Hoa",
+        "thangnam": "2/2026",
+        "dien_cu": "569",
+        "dien_moi": "655",
+        "nuoc_cu": "43",
+        "nuoc_moi": "52",
+        "lydo": ""
+    },
+    {
+        "phong": "A408",
+        "khachthue": "Hoàng Thị Mai",
+        "thangnam": "2/2026",
+        "dien_cu": "352",
+        "dien_moi": "592",
+        "nuoc_cu": "81",
+        "nuoc_moi": "103",
+        "lydo": ""
+    },
+    {
+        "phong": "A409",
+        "khachthue": "Vũ Công Dũng",
+        "thangnam": "2/2026",
+        "dien_cu": "369",
+        "dien_moi": "610",
+        "nuoc_cu": "84",
+        "nuoc_moi": "102",
+        "lydo": ""
+    },
+    {
+        "phong": "A410",
+        "khachthue": "Phan Thanh Trang",
+        "thangnam": "2/2026",
+        "dien_cu": "697",
+        "dien_moi": "849",
+        "nuoc_cu": "56",
+        "nuoc_moi": "68",
+        "lydo": ""
+    },
+    {
+        "phong": "A501",
+        "khachthue": "Đặng Thu Ngân",
+        "thangnam": "2/2026",
+        "dien_cu": "241",
+        "dien_moi": "421",
+        "nuoc_cu": "73",
+        "nuoc_moi": "80",
+        "lydo": ""
+    },
+    {
+        "phong": "A502",
+        "khachthue": "Bùi Đức Long",
+        "thangnam": "2/2026",
+        "dien_cu": "148",
+        "dien_moi": "226",
+        "nuoc_cu": "29",
+        "nuoc_moi": "54",
+        "lydo": ""
+    },
+    {
+        "phong": "A503",
+        "khachthue": "Đỗ Mai Hương",
+        "thangnam": "2/2026",
+        "dien_cu": "263",
+        "dien_moi": "487",
+        "nuoc_cu": "64",
+        "nuoc_moi": "88",
+        "lydo": ""
+    },
+    {
+        "phong": "A506",
+        "khachthue": "Hồ Kim Phương",
+        "thangnam": "2/2026",
+        "dien_cu": "165",
+        "dien_moi": "313",
+        "nuoc_cu": "58",
+        "nuoc_moi": "82",
+        "lydo": ""
+    },
+    {
+        "phong": "A508",
+        "khachthue": "Ngô Hữu Quân",
+        "thangnam": "2/2026",
+        "dien_cu": "579",
+        "dien_moi": "764",
+        "nuoc_cu": "42",
+        "nuoc_moi": "64",
+        "lydo": ""
+    },
+    {
+        "phong": "A509",
+        "khachthue": "Dương Thị Diệu",
+        "thangnam": "2/2026",
+        "dien_cu": "111",
+        "dien_moi": "335",
+        "nuoc_cu": "24",
+        "nuoc_moi": "50",
+        "lydo": ""
+    },
+    {
+        "phong": "A510",
+        "khachthue": "Lý Ngọc Hà",
+        "thangnam": "2/2026",
+        "dien_cu": "649",
+        "dien_moi": "891",
+        "nuoc_cu": "44",
+        "nuoc_moi": "73",
+        "lydo": ""
+    },
+    {
+        "phong": "B101",
+        "khachthue": "Nguyễn Văn Tuấn",
+        "thangnam": "2/2026",
+        "dien_cu": "756",
+        "dien_moi": "893",
+        "nuoc_cu": "24",
+        "nuoc_moi": "38",
+        "lydo": ""
+    },
+    {
+        "phong": "B102",
+        "khachthue": "Trần Thu Trâm",
+        "thangnam": "2/2026",
+        "dien_cu": "545",
+        "dien_moi": "635",
+        "nuoc_cu": "68",
+        "nuoc_moi": "73",
+        "lydo": ""
+    },
+    {
+        "phong": "B105",
+        "khachthue": "Lê Lan Ngọc",
+        "thangnam": "2/2026",
+        "dien_cu": "369",
+        "dien_moi": "547",
+        "nuoc_cu": "32",
+        "nuoc_moi": "53",
+        "lydo": ""
+    },
+    {
+        "phong": "B106",
+        "khachthue": "Phạm Quang An",
+        "thangnam": "2/2026",
+        "dien_cu": "208",
+        "dien_moi": "418",
+        "nuoc_cu": "48",
+        "nuoc_moi": "73",
+        "lydo": ""
+    },
+    {
+        "phong": "B107",
+        "khachthue": "Hoàng Kim Hoa",
+        "thangnam": "2/2026",
+        "dien_cu": "619",
+        "dien_moi": "824",
+        "nuoc_cu": "35",
+        "nuoc_moi": "44",
+        "lydo": ""
+    },
+    {
+        "phong": "B108",
+        "khachthue": "Vũ Hoàng Mai",
+        "thangnam": "2/2026",
+        "dien_cu": "482",
+        "dien_moi": "727",
+        "nuoc_cu": "30",
+        "nuoc_moi": "52",
+        "lydo": ""
+    },
+    {
+        "phong": "B109",
+        "khachthue": "Phan Trọng Dũng",
+        "thangnam": "2/2026",
+        "dien_cu": "643",
+        "dien_moi": "693",
+        "nuoc_cu": "86",
+        "nuoc_moi": "101",
+        "lydo": ""
+    },
+    {
+        "phong": "B201",
+        "khachthue": "Đặng Ngọc Trang",
+        "thangnam": "2/2026",
+        "dien_cu": "600",
+        "dien_moi": "654",
+        "nuoc_cu": "24",
+        "nuoc_moi": "40",
+        "lydo": ""
+    },
+    {
+        "phong": "B203",
+        "khachthue": "Bùi Thanh Ngân",
+        "thangnam": "2/2026",
+        "dien_cu": "414",
+        "dien_moi": "525",
+        "nuoc_cu": "17",
+        "nuoc_moi": "29",
+        "lydo": ""
+    },
+    {
+        "phong": "B206",
+        "khachthue": "Đỗ Minh Long",
+        "thangnam": "2/2026",
+        "dien_cu": "680",
+        "dien_moi": "750",
+        "nuoc_cu": "20",
+        "nuoc_moi": "48",
+        "lydo": ""
+    },
+    {
+        "phong": "B207",
+        "khachthue": "Hồ Lan Hương",
+        "thangnam": "2/2026",
+        "dien_cu": "597",
+        "dien_moi": "664",
+        "nuoc_cu": "78",
+        "nuoc_moi": "107",
+        "lydo": ""
+    },
+    {
+        "phong": "B209",
+        "khachthue": "Ngô Mai Phương",
+        "thangnam": "2/2026",
+        "dien_cu": "228",
+        "dien_moi": "310",
+        "nuoc_cu": "94",
+        "nuoc_moi": "114",
+        "lydo": ""
+    },
+    {
+        "phong": "B210",
+        "khachthue": "Dương Công Quân",
+        "thangnam": "2/2026",
+        "dien_cu": "662",
+        "dien_moi": "754",
+        "nuoc_cu": "43",
+        "nuoc_moi": "64",
+        "lydo": ""
+    },
+    {
+        "phong": "B301",
+        "khachthue": "Lý Hoàng Diệu",
+        "thangnam": "2/2026",
+        "dien_cu": "721",
+        "dien_moi": "879",
+        "nuoc_cu": "37",
+        "nuoc_moi": "59",
+        "lydo": ""
+    },
+    {
+        "phong": "B302",
+        "khachthue": "Nguyễn Thị Hà",
+        "thangnam": "2/2026",
+        "dien_cu": "305",
+        "dien_moi": "537",
+        "nuoc_cu": "49",
+        "nuoc_moi": "66",
+        "lydo": ""
+    },
+    {
+        "phong": "B303",
+        "khachthue": "Trần Đức Tuấn",
+        "thangnam": "2/2026",
+        "dien_cu": "787",
+        "dien_moi": "1003",
+        "nuoc_cu": "57",
+        "nuoc_moi": "76",
+        "lydo": ""
+    },
+    {
+        "phong": "B304",
+        "khachthue": "Lê Thanh Trâm",
+        "thangnam": "2/2026",
+        "dien_cu": "629",
+        "dien_moi": "794",
+        "nuoc_cu": "25",
+        "nuoc_moi": "37",
+        "lydo": ""
+    },
+    {
+        "phong": "B305",
+        "khachthue": "Phạm Thu Ngọc",
+        "thangnam": "2/2026",
+        "dien_cu": "330",
+        "dien_moi": "396",
+        "nuoc_cu": "53",
+        "nuoc_moi": "58",
+        "lydo": ""
+    },
+    {
+        "phong": "B306",
+        "khachthue": "Hoàng Hữu An",
+        "thangnam": "2/2026",
+        "dien_cu": "702",
+        "dien_moi": "893",
+        "nuoc_cu": "39",
+        "nuoc_moi": "62",
+        "lydo": ""
+    },
+    {
+        "phong": "B307",
+        "khachthue": "Vũ Mai Hoa",
+        "thangnam": "2/2026",
+        "dien_cu": "325",
+        "dien_moi": "376",
+        "nuoc_cu": "19",
+        "nuoc_moi": "46",
+        "lydo": ""
+    },
+    {
+        "phong": "B308",
+        "khachthue": "Phan Kim Mai",
+        "thangnam": "2/2026",
+        "dien_cu": "746",
+        "dien_moi": "811",
+        "nuoc_cu": "39",
+        "nuoc_moi": "46",
+        "lydo": ""
+    },
+    {
+        "phong": "B309",
+        "khachthue": "Đặng Văn Dũng",
+        "thangnam": "2/2026",
+        "dien_cu": "132",
+        "dien_moi": "266",
+        "nuoc_cu": "19",
+        "nuoc_moi": "40",
+        "lydo": ""
+    },
+    {
+        "phong": "B310",
+        "khachthue": "Bùi Thị Trang",
+        "thangnam": "2/2026",
+        "dien_cu": "343",
+        "dien_moi": "464",
+        "nuoc_cu": "95",
+        "nuoc_moi": "115",
+        "lydo": ""
+    },
+    {
+        "phong": "B401",
+        "khachthue": "Đỗ Ngọc Ngân",
+        "thangnam": "2/2026",
+        "dien_cu": "319",
+        "dien_moi": "507",
+        "nuoc_cu": "26",
+        "nuoc_moi": "54",
+        "lydo": ""
+    },
+    {
+        "phong": "B402",
+        "khachthue": "Hồ Quang Long",
+        "thangnam": "2/2026",
+        "dien_cu": "684",
+        "dien_moi": "881",
+        "nuoc_cu": "70",
+        "nuoc_moi": "82",
+        "lydo": ""
+    },
+    {
+        "phong": "B403",
+        "khachthue": "Ngô Thu Hương",
+        "thangnam": "2/2026",
+        "dien_cu": "584",
+        "dien_moi": "738",
+        "nuoc_cu": "34",
+        "nuoc_moi": "42",
+        "lydo": ""
+    },
+    {
+        "phong": "B405",
+        "khachthue": "Dương Lan Phương",
+        "thangnam": "2/2026",
+        "dien_cu": "199",
+        "dien_moi": "417",
+        "nuoc_cu": "65",
+        "nuoc_moi": "81",
+        "lydo": ""
+    },
+    {
+        "phong": "B406",
+        "khachthue": "Lý Trọng Quân",
+        "thangnam": "2/2026",
+        "dien_cu": "533",
+        "dien_moi": "688",
+        "nuoc_cu": "69",
+        "nuoc_moi": "97",
+        "lydo": ""
+    },
+    {
+        "phong": "B407",
+        "khachthue": "Nguyễn Kim Diệu",
+        "thangnam": "2/2026",
+        "dien_cu": "155",
+        "dien_moi": "377",
+        "nuoc_cu": "93",
+        "nuoc_moi": "118",
+        "lydo": ""
+    },
+    {
+        "phong": "B408",
+        "khachthue": "Trần Hoàng Hà",
+        "thangnam": "2/2026",
+        "dien_cu": "200",
+        "dien_moi": "265",
+        "nuoc_cu": "61",
+        "nuoc_moi": "89",
+        "lydo": ""
+    },
+    {
+        "phong": "B409",
+        "khachthue": "Lê Minh Tuấn",
+        "thangnam": "2/2026",
+        "dien_cu": "447",
+        "dien_moi": "524",
+        "nuoc_cu": "41",
+        "nuoc_moi": "52",
+        "lydo": ""
+    },
+    {
+        "phong": "B502",
+        "khachthue": "Phạm Ngọc Trâm",
+        "thangnam": "2/2026",
+        "dien_cu": "294",
+        "dien_moi": "481",
+        "nuoc_cu": "67",
+        "nuoc_moi": "76",
+        "lydo": ""
+    },
+    {
+        "phong": "B503",
+        "khachthue": "Hoàng Thanh Ngọc",
+        "thangnam": "2/2026",
+        "dien_cu": "532",
+        "dien_moi": "628",
+        "nuoc_cu": "45",
+        "nuoc_moi": "64",
+        "lydo": ""
+    },
+    {
+        "phong": "B505",
+        "khachthue": "Vũ Công An",
+        "thangnam": "2/2026",
+        "dien_cu": "355",
+        "dien_moi": "424",
+        "nuoc_cu": "66",
+        "nuoc_moi": "96",
+        "lydo": ""
+    },
+    {
+        "phong": "B506",
+        "khachthue": "Phan Lan Hoa",
+        "thangnam": "2/2026",
+        "dien_cu": "663",
+        "dien_moi": "738",
+        "nuoc_cu": "16",
+        "nuoc_moi": "41",
+        "lydo": ""
+    },
+    {
+        "phong": "B507",
+        "khachthue": "Đặng Mai Mai",
+        "thangnam": "2/2026",
+        "dien_cu": "653",
+        "dien_moi": "706",
+        "nuoc_cu": "21",
+        "nuoc_moi": "50",
+        "lydo": ""
+    },
+    {
+        "phong": "B508",
+        "khachthue": "Bùi Đức Dũng",
+        "thangnam": "2/2026",
+        "dien_cu": "342",
+        "dien_moi": "434",
+        "nuoc_cu": "62",
+        "nuoc_moi": "82",
+        "lydo": ""
+    },
+    {
+        "phong": "B509",
+        "khachthue": "Đỗ Hoàng Trang",
+        "thangnam": "2/2026",
+        "dien_cu": "592",
+        "dien_moi": "696",
+        "nuoc_cu": "61",
+        "nuoc_moi": "67",
+        "lydo": ""
+    },
+    {
+        "phong": "B510",
+        "khachthue": "Hồ Thị Ngân",
+        "thangnam": "2/2026",
+        "dien_cu": "268",
+        "dien_moi": "415",
+        "nuoc_cu": "10",
+        "nuoc_moi": "27",
+        "lydo": ""
+    }
+]
