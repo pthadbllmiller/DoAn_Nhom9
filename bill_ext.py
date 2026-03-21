@@ -5,9 +5,8 @@ Chứa Bill — tất cả logic liên quan đến quản lý Hoá Đơn.
 Được kế thừa bởi class Admin trong QuanLyPhongTro_Ext.py
 """
 import json
-import os
 from PyQt6.QtWidgets import QMessageBox, QMainWindow
-from addInfo import Ui_AddInfo
+
 
 class BillService:
 
@@ -31,19 +30,19 @@ class BillService:
                 self.info_window.lne_thangnam2.setText(b["thangnam"])
                 self.info_window.cbo_trangthai4.setCurrentText(b["trangthai"])
 
-                self.info_window.lne_tienthuephong1.setText(str(b["tienphong"]))
+                self.info_window.lne_tienthuephong1.setText(str(b["tienthuephong"]))
                 self.info_window.lne_tiendien1.setText(str(b["tiendien"]))
                 self.info_window.lne_tiennuoc1.setText(str(b["tiennuoc"]))
 
-                self.info_window.lne_phivs1.setText(str(b["phivesinh"]))
-                self.info_window.lne_phigiuxe1.setText(str(b["phiguixe"]))
+                self.info_window.lne_phivs1.setText(str(b["phivs"]))
+                self.info_window.lne_phigiuxe1.setText(str(b["phigiuxe"]))
                 self.info_window.lne_phiwifi1.setText(str(b["phiwifi"]))
                 self.info_window.lne_phikhac11.setText(str(b.get("ndphikhac", "")))
                 self.info_window.lne_phikhac21.setText(str(b["phikhac"]))
 
                 self.info_window.txt_ghichu3.setPlainText(b["ghichu"])
 
-                self.info_window.set_read_only()
+                self.info_window.disable_edit_bill()
                 self.info_window.show()
                 return
     # ======================================== CẬP NHẬT THỐNG KÊ HOÁ ĐƠN ========================================
@@ -58,10 +57,9 @@ class BillService:
                 status = item.text().strip().lower()
                 if status == "đã thanh toán":
                     paid += 1
-                else:
+                elif status == "chưa thanh toán":
                     unpaid += 1
 
         self.lne_sumBill.setText(str(total))
         self.lne_paidBill.setText(str(paid))
         self.lne_unpaidBill.setText(str(unpaid))
-        self.lne_db_bill.setText(str(unpaid))

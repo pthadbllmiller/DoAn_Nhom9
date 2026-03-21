@@ -6,7 +6,7 @@ Chứa Room — tất cả logic liên quan đến quản lý Phòng.
 """
 import json
 from PyQt6.QtWidgets import QMessageBox, QMainWindow
-from addInfo import Ui_AddInfo
+
 
 class RoomService:
 # ======================================== MỞ THÔNG TIN PHÒNG CHI TIẾT ========================================

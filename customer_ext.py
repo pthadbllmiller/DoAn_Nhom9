@@ -6,7 +6,7 @@ Chứa Customer— tất cả logic liên quan đến quản lý Khách Thuê.
 """
 import json
 from PyQt6.QtWidgets import QMessageBox, QMainWindow
-from addInfo import Ui_AddInfo
+
 
 class CustomerService:
 
@@ -37,9 +37,9 @@ class CustomerService:
 
          # Khóa không cho chỉnh sửa khi xem chi tiết
                 self.info_window.disable_edit_customer()
-                
                 self.info_window.show()
                 return
+
     def update_customer_stats(self):
         total = self.tableWidget_Customer.rowCount()
         self.lne_sumCustomer.setText(str(total))

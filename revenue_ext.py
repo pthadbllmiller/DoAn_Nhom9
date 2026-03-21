@@ -4,7 +4,6 @@ from datetime import date
  
  
 class RevenueService:
- 
     def load_revenue(self):
         try:
             with open("data/bills.json", "r", encoding="utf-8") as f:

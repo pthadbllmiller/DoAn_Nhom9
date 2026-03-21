@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1440</width>
-    <height>960</height>
+    <width>1476</width>
+    <height>779</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -529,7 +529,7 @@ QPushButton:pressed {
      </rect>
     </property>
     <property name="currentIndex">
-     <number>5</number>
+     <number>7</number>
     </property>
     <widget class="QWidget" name="page">
      <widget class="QTableWidget" name="tableWidget">
@@ -697,7 +697,7 @@ color:#3B82F6;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -777,7 +777,7 @@ padding-left:15px;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -798,7 +798,7 @@ padding-left:15px;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -849,7 +849,7 @@ color:#DC1B1B;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -900,7 +900,7 @@ color:#EE8433;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -1063,7 +1063,7 @@ color: #22C55E;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -1084,7 +1084,7 @@ color: #22C55E;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -1105,7 +1105,7 @@ color: #22C55E;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -1509,7 +1509,7 @@ color:#CB30E0;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -1581,7 +1581,7 @@ color:#DC1B1B;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -2035,7 +2035,7 @@ color:#CB30E0;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -2086,7 +2086,7 @@ color: #FFC229;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -2137,7 +2137,7 @@ color:#22C55E;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -2188,7 +2188,7 @@ color:#DC1B1B;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -2617,7 +2617,7 @@ color:#CB30E0;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -2638,7 +2638,7 @@ color:#CB30E0;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -3095,7 +3095,7 @@ color: #22C55E;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -3146,7 +3146,7 @@ color:#CB30E0;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -3197,7 +3197,7 @@ color:#3B82F6;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -3572,7 +3572,7 @@ QTableWidget::item{
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>10</pointsize>
+        <pointsize>12</pointsize>
        </font>
       </property>
       <property name="styleSheet">
@@ -3601,7 +3601,7 @@ QTableWidget::item{
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>10</pointsize>
+        <pointsize>12</pointsize>
        </font>
       </property>
       <property name="styleSheet">
@@ -3713,7 +3713,7 @@ color:#DC1B1B;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -3734,7 +3734,7 @@ color:#DC1B1B;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -3785,7 +3785,7 @@ color:#22C55E;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -3836,7 +3836,7 @@ color: #FFC229;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -4225,7 +4225,7 @@ color: black;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -4246,7 +4246,7 @@ color: black;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -4297,7 +4297,7 @@ color:#22C55E;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -4636,7 +4636,7 @@ color:#22C55E;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -4687,7 +4687,7 @@ color:#CB30E0;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -4738,7 +4738,7 @@ color: #6E9CE7;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -4818,7 +4818,7 @@ padding-left:15px;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -4839,7 +4839,7 @@ padding-left:15px;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -4890,7 +4890,7 @@ color:#EE8433;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -5725,8 +5725,8 @@ font-color:black;
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1440</width>
-     <height>21</height>
+     <width>1476</width>
+     <height>37</height>
     </rect>
    </property>
   </widget>

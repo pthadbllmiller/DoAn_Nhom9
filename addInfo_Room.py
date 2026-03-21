@@ -25,7 +25,7 @@ class addInfo_Room:
             with open("data/rooms.json", "r", encoding="utf-8") as f:
                 rooms = json.load(f)
             if any(r["phong"] == so_phong for r in rooms):
-                QMessageBox.warning(self, "Trùng mã phòng!", "Vui lòng nhập mã khác")
+                QMessageBox.warning(self, "Trùng mã phòng! Vui lòng nhập mã khác")
                 self.lne_sophong1.setFocus()
                 self.lne_sophong1.selectAll()
                 return
@@ -33,8 +33,8 @@ class addInfo_Room:
         room = {
             "phong":             so_phong,
             "loai":              self.cbo_loaiphong1.currentText(),
-            "dientich":          self.lne_dientich1.text().strip(),
-            "gia":               self.lne_giathue1.text().strip(),
+            "dientich":          dientich,
+            "gia":               gia,
             "trangthai":         self.cbo_trangthai1.currentText(),
             "tienich":           self.txt_tienich1.toPlainText().strip(),
             "ghichu":            self.txt_mota1.toPlainText().strip(),
@@ -42,7 +42,7 @@ class addInfo_Room:
             "thongtinkhachthue": "",
             "mota":              self.txt_mota1.toPlainText().strip()
         }
-        #Gọi inset_row_table của Admin()
+        # Gọi inset_row_table của Admin()
         self.admin.insert_row_table(
             self.admin.tableWidget_Room,
             room,
