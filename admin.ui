@@ -509,7 +509,7 @@ QPushButton:pressed {
     </property>
     <property name="font">
      <font>
-      <family>Arial Black</family>
+      <family>Noto Sans</family>
       <pointsize>16</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -529,90 +529,9 @@ QPushButton:pressed {
      </rect>
     </property>
     <property name="currentIndex">
-     <number>5</number>
+     <number>4</number>
     </property>
     <widget class="QWidget" name="page">
-     <widget class="QTableWidget" name="tableWidget">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>550</y>
-        <width>1000</width>
-        <height>346</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">QTableWidget{
-border:1px solid #e0e0e0;
-border-radius:12px;
-}</string>
-      </property>
-      <column>
-       <property name="text">
-        <string>Phòng</string>
-       </property>
-       <property name="font">
-        <font>
-         <family>Arial</family>
-         <pointsize>18</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Nội dung</string>
-       </property>
-       <property name="font">
-        <font>
-         <family>Arial</family>
-         <pointsize>18</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Thời gian gửi</string>
-       </property>
-       <property name="font">
-        <font>
-         <family>Arial</family>
-         <pointsize>18</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Trạng thái</string>
-       </property>
-       <property name="font">
-        <font>
-         <family>Arial</family>
-         <pointsize>18</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Thao tác</string>
-       </property>
-       <property name="font">
-        <font>
-         <family>Arial</family>
-         <pointsize>18</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
-       </property>
-      </column>
-     </widget>
      <widget class="QLabel" name="lb_dashboard">
       <property name="geometry">
        <rect>
@@ -682,7 +601,7 @@ color:#3B82F6;
 }</string>
       </property>
       <property name="text">
-       <string>80</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="label_5">
@@ -733,7 +652,7 @@ color:#22C55E;
 }</string>
       </property>
       <property name="text">
-       <string>20</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLineEdit" name="lne_db_doanhthu">
@@ -762,7 +681,7 @@ padding-left:15px;
 }</string>
       </property>
       <property name="text">
-       <string>120.000.000 đ</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="label_7">
@@ -834,7 +753,7 @@ color:#DC1B1B;
 }</string>
       </property>
       <property name="text">
-       <string>5</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="label_11">
@@ -885,7 +804,7 @@ color:#EE8433;
 }</string>
       </property>
       <property name="text">
-       <string>10</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="label_13">
@@ -988,7 +907,7 @@ color:#3B82F6;
 }</string>
       </property>
       <property name="text">
-       <string>80</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLineEdit" name="lne_sumRoom">
@@ -1018,7 +937,7 @@ color:#CB30E0;
 }</string>
       </property>
       <property name="text">
-       <string>100</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLineEdit" name="lne_phongTrong">
@@ -1048,7 +967,7 @@ color: #22C55E;
 }</string>
       </property>
       <property name="text">
-       <string>20</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="label_20">
@@ -1494,7 +1413,7 @@ color:#CB30E0;
 }</string>
       </property>
       <property name="text">
-       <string>150</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="label_16">
@@ -1566,7 +1485,7 @@ color:#DC1B1B;
 }</string>
       </property>
       <property name="text">
-       <string>0</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="label_21">
@@ -2020,7 +1939,7 @@ color:#CB30E0;
 }</string>
       </property>
       <property name="text">
-       <string>80</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="label_23">
@@ -2071,7 +1990,7 @@ color: #FFC229;
 }</string>
       </property>
       <property name="text">
-       <string>0</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="label_25">
@@ -2122,7 +2041,7 @@ color:#22C55E;
 }</string>
       </property>
       <property name="text">
-       <string>80</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="label_24">
@@ -2173,7 +2092,7 @@ color:#DC1B1B;
 }</string>
       </property>
       <property name="text">
-       <string>0</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="label_26">
@@ -3080,7 +2999,7 @@ color: #22C55E;
 }</string>
       </property>
       <property name="text">
-       <string>20</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="label_35">
@@ -3131,7 +3050,7 @@ color:#CB30E0;
 }</string>
       </property>
       <property name="text">
-       <string>100</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="label_33">
@@ -3182,7 +3101,7 @@ color:#3B82F6;
 }</string>
       </property>
       <property name="text">
-       <string>80</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="label_34">
@@ -3668,7 +3587,7 @@ color:#CB30E0;
 }</string>
       </property>
       <property name="text">
-       <string>5</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLineEdit" name="lne_notRequest">
@@ -3698,7 +3617,7 @@ color:#DC1B1B;
 }</string>
       </property>
       <property name="text">
-       <string>2</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="label_41">
@@ -3770,7 +3689,7 @@ color:#22C55E;
 }</string>
       </property>
       <property name="text">
-       <string>2</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="label_39">
@@ -3821,7 +3740,7 @@ color: #FFC229;
 }</string>
       </property>
       <property name="text">
-       <string>1</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="label_40">
@@ -3875,11 +3794,6 @@ QTableWidget::item{
     padding:8px;
 }</string>
       </property>
-      <row>
-       <property name="text">
-        <string>1</string>
-       </property>
-      </row>
       <row>
        <property name="text">
         <string>New Row</string>
@@ -3947,167 +3861,6 @@ QTableWidget::item{
         </font>
        </property>
       </column>
-      <item row="0" column="0">
-       <property name="text">
-        <string>A101</string>
-       </property>
-       <property name="font">
-        <font>
-         <family>Arial</family>
-         <pointsize>12</pointsize>
-        </font>
-       </property>
-       <property name="textAlignment">
-        <set>AlignCenter</set>
-       </property>
-      </item>
-      <item row="0" column="1">
-       <property name="text">
-        <string>Nguyễn Văn A</string>
-       </property>
-       <property name="font">
-        <font>
-         <family>Arial</family>
-         <pointsize>12</pointsize>
-        </font>
-       </property>
-       <property name="textAlignment">
-        <set>AlignCenter</set>
-       </property>
-      </item>
-      <item row="0" column="2">
-       <property name="text">
-        <string>8/3/2026</string>
-       </property>
-       <property name="font">
-        <font>
-         <family>Arial</family>
-         <pointsize>12</pointsize>
-        </font>
-       </property>
-       <property name="textAlignment">
-        <set>AlignCenter</set>
-       </property>
-      </item>
-      <item row="0" column="3">
-       <property name="text">
-        <string>Chưa xử lý</string>
-       </property>
-       <property name="font">
-        <font>
-         <family>Arial</family>
-         <pointsize>12</pointsize>
-        </font>
-       </property>
-       <property name="textAlignment">
-        <set>AlignCenter</set>
-       </property>
-      </item>
-      <item row="1" column="0">
-       <property name="text">
-        <string>A102</string>
-       </property>
-       <property name="font">
-        <font>
-         <family>Arial</family>
-         <pointsize>12</pointsize>
-        </font>
-       </property>
-       <property name="textAlignment">
-        <set>AlignCenter</set>
-       </property>
-       <property name="foreground">
-        <brush brushstyle="NoBrush">
-         <color alpha="255">
-          <red>3</red>
-          <green>0</green>
-          <blue>0</blue>
-         </color>
-        </brush>
-       </property>
-      </item>
-      <item row="1" column="1">
-       <property name="text">
-        <string>Trần Thị B</string>
-       </property>
-       <property name="font">
-        <font>
-         <family>Arial</family>
-         <pointsize>12</pointsize>
-        </font>
-       </property>
-       <property name="textAlignment">
-        <set>AlignCenter</set>
-       </property>
-      </item>
-      <item row="1" column="2">
-       <property name="text">
-        <string>4/3/2026</string>
-       </property>
-       <property name="font">
-        <font>
-         <family>Arial</family>
-         <pointsize>12</pointsize>
-        </font>
-       </property>
-       <property name="textAlignment">
-        <set>AlignCenter</set>
-       </property>
-      </item>
-      <item row="1" column="3">
-       <property name="text">
-        <string>Chưa xử lý</string>
-       </property>
-       <property name="font">
-        <font>
-         <family>Arial</family>
-         <pointsize>12</pointsize>
-        </font>
-       </property>
-       <property name="textAlignment">
-        <set>AlignCenter</set>
-       </property>
-      </item>
-      <item row="2" column="0">
-       <property name="text">
-        <string>B102</string>
-       </property>
-      </item>
-      <item row="2" column="1">
-       <property name="text">
-        <string>Võ Văn C</string>
-       </property>
-      </item>
-      <item row="2" column="2">
-       <property name="text">
-        <string>1/3/2026</string>
-       </property>
-      </item>
-      <item row="2" column="3">
-       <property name="text">
-        <string>Đang xử lý</string>
-       </property>
-      </item>
-      <item row="3" column="0">
-       <property name="text">
-        <string>B105</string>
-       </property>
-      </item>
-      <item row="3" column="1">
-       <property name="text">
-        <string>Hồ Thị D</string>
-       </property>
-      </item>
-      <item row="3" column="2">
-       <property name="text">
-        <string>22/2/2026</string>
-       </property>
-      </item>
-      <item row="3" column="3">
-       <property name="text">
-        <string>Đã xử lý</string>
-       </property>
-      </item>
      </widget>
      <widget class="QLabel" name="label_42">
       <property name="geometry">
@@ -4180,7 +3933,7 @@ color:#CB30E0;
 }</string>
       </property>
       <property name="text">
-       <string>2</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLineEdit" name="lne_unaStaff">
@@ -4210,7 +3963,7 @@ color: black;
 }</string>
       </property>
       <property name="text">
-       <string>0</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="label_45">
@@ -4282,7 +4035,7 @@ color:#22C55E;
 }</string>
       </property>
       <property name="text">
-       <string>2</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="label_44">

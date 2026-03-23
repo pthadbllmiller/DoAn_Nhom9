@@ -6,10 +6,9 @@ Chứa Customer— tất cả logic liên quan đến quản lý Khách Thuê.
 """
 import json
 from PyQt6.QtWidgets import QMessageBox, QMainWindow
-from addInfo import Ui_AddInfo
+
 
 class CustomerService:
-
     # ======================================== MỞ THÔNG TIN KHÁCH THUÊ CHI TIẾT ========================================
     def open_customer_detail(self, row):
         from addInfo_ext import addInfo

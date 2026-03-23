@@ -4028,48 +4028,48 @@ class Ui_AddInfo(object):
         self.label_2.setText(_translate("AddInfo", "Nhập thông tin phòng mới"))
         self.label_3.setText(_translate("AddInfo", "Số phòng *"))
         self.label_4.setText(_translate("AddInfo", "Loại phòng *"))
-        self.label_5.setText(_translate("AddInfo", "Trạng thái"))
+        self.label_5.setText(_translate("AddInfo", "Trạng thái*"))
         self.label_6.setText(_translate("AddInfo", "Giá thuê (đ) *"))
         self.label_7.setText(_translate("AddInfo", "Diện tích (m^2) *"))
         self.label_8.setText(_translate("AddInfo", "Mô tả"))
         self.txt_mota1.setHtml(_translate("AddInfo", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:\'.AppleSystemUIFont\'; font-size:13pt;\"><br /></p></body></html>"))
         self.label_9.setText(_translate("AddInfo", "Tiện ích"))
         self.txt_tienich1.setHtml(_translate("AddInfo", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:\'.AppleSystemUIFont\'; font-size:13pt;\"><br /></p></body></html>"))
         self.btn_huy1.setText(_translate("AddInfo", "Huỷ"))
         self.btn_themmoi1.setText(_translate("AddInfo", "Thêm mới"))
         self.label_10.setText(_translate("AddInfo", "Xem chi tiết"))
         self.label_11.setText(_translate("AddInfo", "Xem thông tin phòng"))
-        self.label_12.setText(_translate("AddInfo", "Số phòng *"))
-        self.label_13.setText(_translate("AddInfo", "Loại phòng *"))
+        self.label_12.setText(_translate("AddInfo", "Số phòng "))
+        self.label_13.setText(_translate("AddInfo", "Loại phòng "))
         self.label_14.setText(_translate("AddInfo", "Trạng thái"))
-        self.label_15.setText(_translate("AddInfo", "Giá thuê (đ) *"))
-        self.label_16.setText(_translate("AddInfo", "Diện tích (m^2) *"))
+        self.label_15.setText(_translate("AddInfo", "Giá thuê (đ) "))
+        self.label_16.setText(_translate("AddInfo", "Diện tích (m^2) "))
         self.label_17.setText(_translate("AddInfo", "Người phụ trách"))
         self.label_18.setText(_translate("AddInfo", "Thông tin khách thuê"))
         self.txt_ttkhachthue1.setHtml(_translate("AddInfo", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:\'.AppleSystemUIFont\'; font-size:13pt;\"><br /></p></body></html>"))
         self.label_19.setText(_translate("AddInfo", "Mô tả"))
         self.txt_mota2.setHtml(_translate("AddInfo", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:\'.AppleSystemUIFont\'; font-size:13pt;\"><br /></p></body></html>"))
         self.label_20.setText(_translate("AddInfo", "Tiện ích"))
         self.txt_tienich2.setHtml(_translate("AddInfo", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:\'.AppleSystemUIFont\'; font-size:13pt;\"><br /></p></body></html>"))
         self.btn_huy2.setText(_translate("AddInfo", "Huỷ"))
         self.btn_chinhsua1.setText(_translate("AddInfo", "Chỉnh sửa"))
@@ -4085,19 +4085,19 @@ class Ui_AddInfo(object):
         self.txt_ttkhachthue2.setHtml(_translate("AddInfo", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:\'.AppleSystemUIFont\'; font-size:13pt;\"><br /></p></body></html>"))
         self.label_30.setText(_translate("AddInfo", "Mô tả"))
         self.label_31.setText(_translate("AddInfo", "Tiện ích"))
         self.txt_mota3.setHtml(_translate("AddInfo", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:\'.AppleSystemUIFont\'; font-size:13pt;\"><br /></p></body></html>"))
         self.txt_tienich3.setHtml(_translate("AddInfo", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:\'.AppleSystemUIFont\'; font-size:13pt;\"><br /></p></body></html>"))
         self.btn_huy3.setText(_translate("AddInfo", "Huỷ"))
         self.btn_capnhat1.setText(_translate("AddInfo", "Cập nhật"))
@@ -4116,13 +4116,13 @@ class Ui_AddInfo(object):
         self.txt_hkthuongtru1.setHtml(_translate("AddInfo", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:\'.AppleSystemUIFont\'; font-size:13pt;\"><br /></p></body></html>"))
         self.label_80.setText(_translate("AddInfo", "Ghi chú"))
         self.txt_ghichu1.setHtml(_translate("AddInfo", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:\'.AppleSystemUIFont\'; font-size:13pt;\"><br /></p></body></html>"))
         self.btn_dong1.setText(_translate("AddInfo", "Đóng"))
         self.label_81.setText(_translate("AddInfo", "Duyệt yêu cầu"))
@@ -4140,13 +4140,13 @@ class Ui_AddInfo(object):
         self.txt_hkthuongtru2.setHtml(_translate("AddInfo", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:\'.AppleSystemUIFont\'; font-size:13pt;\"><br /></p></body></html>"))
         self.label_145.setText(_translate("AddInfo", "Ghi chú"))
         self.txt_ghichu2.setHtml(_translate("AddInfo", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:\'.AppleSystemUIFont\'; font-size:13pt;\"><br /></p></body></html>"))
         self.btn_duyet1.setText(_translate("AddInfo", "Duyệt"))
         self.btn_tuchoi1.setText(_translate("AddInfo", "Từ chối"))
@@ -4173,7 +4173,7 @@ class Ui_AddInfo(object):
         self.txt_lydo1.setHtml(_translate("AddInfo", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:\'.AppleSystemUIFont\'; font-size:13pt;\"><br /></p></body></html>"))
         self.label_105.setText(_translate("AddInfo", "Xem chi tiết"))
         self.label_106.setText(_translate("AddInfo", "Xem thông tin chi tiết hoá đơn"))
@@ -4193,7 +4193,7 @@ class Ui_AddInfo(object):
         self.txt_ghichu3.setHtml(_translate("AddInfo", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:\'.AppleSystemUIFont\'; font-size:13pt;\"><br /></p></body></html>"))
         self.btn_huyhoadon1.setText(_translate("AddInfo", "Huỷ hoá đơn"))
         self.btn_chinhsua2.setText(_translate("AddInfo", "Chỉnh sửa"))
@@ -4215,20 +4215,20 @@ class Ui_AddInfo(object):
         self.txt_ghichu4.setHtml(_translate("AddInfo", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:\'.AppleSystemUIFont\'; font-size:13pt;\"><br /></p></body></html>"))
         self.label_135.setText(_translate("AddInfo", "Ảnh"))
         self.txt_anh1.setHtml(_translate("AddInfo", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:\'.AppleSystemUIFont\'; font-size:13pt;\"><br /></p></body></html>"))
         self.btn_tuchoi2.setText(_translate("AddInfo", "Từ chối"))
         self.btn_duyet2.setText(_translate("AddInfo", "Duyệt"))
         self.label_313.setText(_translate("AddInfo", "Tạo hoá đơn mới"))
         self.label_314.setText(_translate("AddInfo", "Duyệt hoá đơn thanh toán của khách hàng"))
-        self.label_315.setText(_translate("AddInfo", "Mã hoá đơn"))
-        self.label_316.setText(_translate("AddInfo", "Số phòng"))
+        self.label_315.setText(_translate("AddInfo", "Mã hoá đơn*"))
+        self.label_316.setText(_translate("AddInfo", "Số phòng*"))
         self.label_317.setText(_translate("AddInfo", "Khách thuê"))
         self.label_318.setText(_translate("AddInfo", "Tháng/Năm"))
         self.label_319.setText(_translate("AddInfo", "Trạng thái"))
@@ -4245,7 +4245,7 @@ class Ui_AddInfo(object):
         self.txt_ghichu5.setHtml(_translate("AddInfo", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:\'.AppleSystemUIFont\'; font-size:13pt;\"><br /></p></body></html>"))
         self.btn_huy6.setText(_translate("AddInfo", "Huỷ"))
         self.btn_tao1.setText(_translate("AddInfo", "Tạo"))
@@ -4267,7 +4267,7 @@ class Ui_AddInfo(object):
         self.txt_ghichu6.setHtml(_translate("AddInfo", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:\'.AppleSystemUIFont\'; font-size:13pt;\"><br /></p></body></html>"))
         self.btn_huy7.setText(_translate("AddInfo", "Huỷ"))
         self.btn_capnhat4.setText(_translate("AddInfo", "Cập nhật"))
@@ -4283,7 +4283,7 @@ class Ui_AddInfo(object):
         self.txt_chitietyc1.setHtml(_translate("AddInfo", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:\'.AppleSystemUIFont\'; font-size:13pt;\"><br /></p></body></html>"))
         self.btn_huy8.setText(_translate("AddInfo", "Huỷ"))
         self.btn_phanhoi1.setText(_translate("AddInfo", "Phản hồi"))
@@ -4299,35 +4299,35 @@ class Ui_AddInfo(object):
         self.txt_chitietyc2.setHtml(_translate("AddInfo", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:\'.AppleSystemUIFont\'; font-size:13pt;\"><br /></p></body></html>"))
         self.label_363.setText(_translate("AddInfo", "Phản hồi từ nhà trọ"))
         self.txt_phanhoinhatro1.setHtml(_translate("AddInfo", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:\'.AppleSystemUIFont\'; font-size:13pt;\"><br /></p></body></html>"))
         self.btn_huy9.setText(_translate("AddInfo", "Huỷ"))
         self.btn_gui1.setText(_translate("AddInfo", "Gửi"))
         self.label_364.setText(_translate("AddInfo", "Thêm nhân viên"))
         self.label_365.setText(_translate("AddInfo", "Nhập thông tin chi tiết của nhân viên mới"))
-        self.label_366.setText(_translate("AddInfo", "Mã nhân viên"))
-        self.label_525.setText(_translate("AddInfo", "Họ tên"))
+        self.label_366.setText(_translate("AddInfo", "Mã nhân viên*"))
+        self.label_525.setText(_translate("AddInfo", "Họ tên*"))
         self.label_526.setText(_translate("AddInfo", "Ngày sinh"))
         self.label_527.setText(_translate("AddInfo", "Giới tính"))
-        self.label_528.setText(_translate("AddInfo", "Số CCCD"))
-        self.label_529.setText(_translate("AddInfo", "Số điện thoại"))
-        self.label_530.setText(_translate("AddInfo", "Tên đăng nhập"))
-        self.label_531.setText(_translate("AddInfo", "Mật khẩu"))
+        self.label_528.setText(_translate("AddInfo", "Số CCCD*"))
+        self.label_529.setText(_translate("AddInfo", "Số điện thoại*"))
+        self.label_530.setText(_translate("AddInfo", "Tên đăng nhập*"))
+        self.label_531.setText(_translate("AddInfo", "Mật khẩu*"))
         self.label_532.setText(_translate("AddInfo", "Phòng phụ trách"))
-        self.label_533.setText(_translate("AddInfo", "Mức lương"))
+        self.label_533.setText(_translate("AddInfo", "Mức lương*"))
         self.label_534.setText(_translate("AddInfo", "Trạng thái "))
         self.label_535.setText(_translate("AddInfo", "Hộ khẩu thường trú"))
         self.label_536.setText(_translate("AddInfo", "Ghi chú"))
         self.txt_ghichu7.setHtml(_translate("AddInfo", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:\'.AppleSystemUIFont\'; font-size:13pt;\"><br /></p></body></html>"))
         self.btn_huy10.setText(_translate("AddInfo", "Huỷ"))
         self.btn_them1.setText(_translate("AddInfo", "Thêm"))
@@ -4349,7 +4349,7 @@ class Ui_AddInfo(object):
         self.txt_ghichu8.setHtml(_translate("AddInfo", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:\'.AppleSystemUIFont\'; font-size:13pt;\"><br /></p></body></html>"))
         self.btn_dong2.setText(_translate("AddInfo", "Đóng"))
         self.btn_chinhsua3.setText(_translate("AddInfo", "Chỉnh sửa"))
@@ -4371,7 +4371,7 @@ class Ui_AddInfo(object):
         self.txt_ghichu9.setHtml(_translate("AddInfo", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:\'.AppleSystemUIFont\'; font-size:13pt;\"><br /></p></body></html>"))
         self.btn_dong3.setText(_translate("AddInfo", "Đóng"))
         self.btn_themmoi2.setText(_translate("AddInfo", "Thêm mới"))
@@ -4399,7 +4399,7 @@ class Ui_AddInfo(object):
         self.txt_ndchitiet1.setHtml(_translate("AddInfo", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:\'.AppleSystemUIFont\'; font-size:13pt;\"><br /></p></body></html>"))
         self.btn_huy11.setText(_translate("AddInfo", "Huỷ"))
         self.btn_phanhoi2.setText(_translate("AddInfo", "Phản hồi"))
