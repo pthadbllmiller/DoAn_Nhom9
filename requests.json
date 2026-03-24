@@ -1,0 +1,102 @@
+[
+    {
+        "tieude": "Sửa vòi nước",
+        "sophong": "A101",
+        "makh": "KH001",
+        "khachthue": "Nguyễn Văn An",
+        "sodienthoai": "0911033055",
+        "ngaygui": "21/3/2026",
+        "trangthai": "Chưa xử lý",
+        "chitiet": "Quản lý cho thợ qua giúp em, vòi nước bị rỉ nước từ tối qua, để lâu sợ ướt đồ đạc."
+    },
+    {
+        "tieude": "Điều hòa bị hư",
+        "sophong": "B101",
+        "makh": "KH043",
+        "khachthue": "Nguyễn Văn Tuấn",
+        "sodienthoai": "0905579769",
+        "ngaygui": "24/2/2026",
+        "trangthai": "Đã xử lý",
+        "chitiet": "Điều hòa không lạnh, bật lên chạy được một lúc rồi tự tắt. Anh lên xem giùm em với."
+    },
+    {
+        "tieude": "Bóng đèn phòng tắm hỏng",
+        "sophong": "A103",
+        "makh": "KH005",
+        "khachthue": "Lê Thanh Mai",
+        "sodienthoai": "0932112233",
+        "ngaygui": "15/3/2026",
+        "trangthai": "Đã xử lý",
+        "chitiet": "Bóng đèn trong phòng tắm bị cháy, tối không thấy gì hết. Nhờ anh chị thay giúp em sớm nhé."
+    },
+    {
+        "tieude": "Cửa phòng bị kẹt khóa",
+        "sophong": "A205",
+        "makh": "KH017",
+        "khachthue": "Lý Mai Trâm",
+        "sodienthoai": "0978456321",
+        "ngaygui": "18/3/2026",
+        "trangthai": "Đã xử lý",
+        "chitiet": "Khóa cửa phòng bị kẹt, xoay chìa không được. Em đang phải để cửa hé, lo mất đồ lắm. Nhờ anh qua sớm."
+    },
+    {
+        "tieude": "Wifi yếu, mất kết nối liên tục",
+        "sophong": "B203",
+        "makh": "KH029",
+        "khachthue": "Trần Minh Khoa",
+        "sodienthoai": "0901234567",
+        "ngaygui": "10/3/2026",
+        "trangthai": "Đã xử lý",
+        "chitiet": "Wifi phòng em từ tuần trước hay bị mất kết nối, đặc biệt buổi tối từ 8-11 giờ rất yếu, ảnh hưởng học online."
+    },
+    {
+        "tieude": "Nhà vệ sinh bị tắc",
+        "sophong": "A108",
+        "makh": "KH011",
+        "khachthue": "Phan Trọng Long",
+        "sodienthoai": "0966778899",
+        "ngaygui": "20/3/2026",
+        "trangthai": "Chưa xử lý",
+        "chitiet": "Bồn cầu bị tắc từ hôm qua, xả nước không thoát được. Rất bất tiện, nhờ anh xử lý gấp giúp em."
+    },
+    {
+        "tieude": "Trần nhà bị thấm nước",
+        "sophong": "A201",
+        "makh": "KH021",
+        "khachthue": "Đỗ Minh Quân",
+        "sodienthoai": "0912345678",
+        "ngaygui": "5/3/2026",
+        "trangthai": "Đã xử lý",
+        "chitiet": "Trần phòng ngủ bị thấm nước, có vết ố vàng và nước nhỏ giọt khi trời mưa. Sợ ảnh hưởng đồ điện tử."
+    },
+    {
+        "tieude": "Quạt trần kêu to, rung lắc",
+        "sophong": "A104",
+        "makh": "KH007",
+        "khachthue": "Phạm Quang Dũng",
+        "sodienthoai": "0944556677",
+        "ngaygui": "12/3/2026",
+        "trangthai": "Đã xử lý",
+        "chitiet": "Quạt trần phòng em chạy kêu rất to và rung lắc mạnh, sợ rớt xuống nguy hiểm. Anh cho thợ lên kiểm tra giúp."
+    },
+    {
+        "tieude": "Cổng tầng 2 hỏng không mở được",
+        "sophong": "A207",
+        "makh": "KH033",
+        "khachthue": "Trần Đức An",
+        "sodienthoai": "0977123456",
+        "ngaygui": "19/3/2026",
+        "trangthai": "Chưa xử lý",
+        "chitiet": "Cổng sắt đầu cầu thang tầng 2 bị hỏng chốt, đóng không được. Người lạ ra vào thoải mái, không an toàn chút nào."
+    },
+    {
+        "tieude": "Máy nước nóng không hoạt động",
+        "sophong": "B105",
+        "makh": "KH051",
+        "khachthue": "Võ Thị Lan Anh",
+        "sodienthoai": "0933221100",
+        "ngaygui": "22/3/2026",
+        "trangthai": "Chưa xử lý",
+        "chitiet": "Máy nước nóng phòng tắm bật lên không có tác dụng, nước vẫn lạnh. Trời này lạnh mà tắm nước lạnh khổ lắm anh ơi."
+    }
+]

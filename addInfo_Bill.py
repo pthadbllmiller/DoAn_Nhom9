@@ -5,6 +5,26 @@ from PyQt6.QtWidgets import  QMessageBox
 class addInfo_Bill:
 # ======================== TẠO HOÁ ĐƠN ==========================================================
     def create_bill(self):
+        mahoadon=self.lne_mahoadon3.text()
+        sophong=self.lne_sophong9.text()
+        
+        if not mahoadon:
+            QMessageBox.warning(self, "Thông báo", "Vui lòng nhập mã hóa đơn!")
+            return
+        if not sophong:
+            QMessageBox.warning(self, "Thông báo", "Vui lòng nhập số phòng!")
+            return
+        
+        # Kiểm tra trùng mã hóa đơn
+        if os.path.exists("data/bills.json"):
+            with open("data/bills.json", "r", encoding="utf-8") as f:
+                bills = json.load(f)
+            if any(r["mahoadon"] == mahoadon for r in bills):
+                QMessageBox.warning(self, "Trùng mã hóa đơn!", "Vui lòng nhập mã khác")
+                self.lne_mahoadon3.setFocus()
+                self.lne_mahoadon3.selectAll()
+                return
+
         new_bill = {
             "mahoadon":  self.lne_mahoadon3.text(),
             "sophong":   self.lne_sophong9.text(),
@@ -37,11 +57,17 @@ class addInfo_Bill:
 
     def delete_bill(self):
         ma = self.lne_mahoadon1.text()
+        reply = QMessageBox.question(self, "Xác nhận xoá", f"Bạn có chắc chắn muốn xoá hóa đơn {ma} không?",QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No)
+
+        if reply == QMessageBox.StandardButton.No:
+            return
+        
         with open("data/bills.json", "r", encoding="utf-8") as f:
             data = json.load(f)
         data = [bill for bill in data if bill["mahoadon"] != ma]
         with open("data/bills.json", "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
+            
         self.admin.load_table_json(self.admin.tableWidget_Bill, "data/bills.json", "bill")
         self.admin.update_bill_stats()
         QMessageBox.information(self, "Thông báo", "Đã xóa hóa đơn")
@@ -132,6 +158,17 @@ class addInfo_Bill:
         }
 
     def update_bill(self):
+        
+        mahoadon=self.lne_mahoadon1.text()
+        sophong=self.lne_sophong7.text()
+        
+        if not mahoadon:
+            QMessageBox.warning(self, "Thông báo", "Vui lòng nhập mã hóa đơn!")
+            return
+        if not sophong:
+            QMessageBox.warning(self, "Thông báo", "Vui lòng nhập số phòng!")
+            return
+        
         data_new = self.get_form_data()
         ma = data_new["mahoadon"]
         with open("data/bills.json", "r", encoding="utf-8") as f:
@@ -146,3 +183,36 @@ class addInfo_Bill:
         self.close()
         self.admin.load_table_json(self.admin.tableWidget_Bill, "data/bills.json", "bill")
         self.admin.update_bill_stats()
+        
+    def auto_fill_bill_info(self):
+        sophong = self.lne_sophong9.text().strip()
+        if not sophong:
+            return
+    
+        # Tự động điền tiền phòng từ rooms.json
+        import os
+        if os.path.exists("data/rooms.json"):
+            with open("data/rooms.json", "r", encoding="utf-8") as f:
+                rooms = json.load(f)
+            for r in rooms:
+                if r["phong"] == sophong:
+                    self.lne_tienthuephong3.setText(str(r.get("gia", "")))
+                    break
+    
+        # Tự động điền tên khách thuê từ customers.json
+        if os.path.exists("data/customers.json"):
+            with open("data/customers.json", "r", encoding="utf-8") as f:
+                customers = json.load(f)
+            for c in customers:
+                if c.get("sophong", "") == sophong:
+                    self.lne_khachthue4.setText(c.get("hoten", ""))
+                    break
+        # Tự động điền  từ bills.json
+        if os.path.exists("data/bills.json"):
+            with open("data/bills.json", "r", encoding="utf-8") as f:
+                bills = json.load(f)
+            for b in bills:
+                if b.get("sophong", "") == sophong:
+                    self.lne_tiendien3.setText(b.get("tiendien", ""))
+                    self.lne_tiennuoc3.setText(b.get("tiennuoc", ""))
+                    break

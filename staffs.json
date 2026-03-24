@@ -1,0 +1,32 @@
+[
+    {
+        "manv": "NV01",
+        "hoten": "Nguyễn Văn An",
+        "ngaysinh": "01/05/1995",
+        "gioitinh": "Nam",
+        "cccd": "079095001234",
+        "sodienthoai": "0976123456",
+        "tendangnhap": "nhanvien",
+        "matkhau": "123",
+        "mucluong": "5000000",
+        "trangthai": "Đang hoạt động",
+        "hkthuongtru": "Global City, Phước Long A, TP. Thủ Đức, TP.HCM",
+        "phongphutrach": "A",
+        "ghichu": ""
+    },
+    {
+        "manv": "NV02",
+        "hoten": "Trần Thị Lan",
+        "ngaysinh": "15/06/1998",
+        "gioitinh": "Nữ",
+        "cccd": "079098005678",
+        "sodienthoai": "0956345678",
+        "tendangnhap": "leha",
+        "matkhau": "123",
+        "mucluong": "5000000",
+        "trangthai": "Đang hoạt động",
+        "hkthuongtru": "",
+        "phongphutrach": "A",
+        "ghichu": ""
+    }
+]

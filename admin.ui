@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1440</width>
-    <height>960</height>
+    <height>729</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -40,7 +40,7 @@
     border: none;
     text-align: left;
     padding: 10px 15px;
-    color: #4A4A4A;
+    color: black;
 }
 
 QPushButton:hover {
@@ -79,7 +79,7 @@ QPushButton:pressed {
     border: none;
     text-align: left;
     padding: 10px 15px;
-    color: #4A4A4A;
+    color: black;
 }
 
 QPushButton:hover {
@@ -118,7 +118,7 @@ QPushButton:pressed {
     border: none;
     text-align: left;
     padding: 10px 15px;
-    color: #4A4A4A;
+    color: black;
 }
 
 QPushButton:hover {
@@ -157,7 +157,7 @@ QPushButton:pressed {
     border: none;
     text-align: left;
     padding: 10px 15px;
-    color: #4A4A4A;
+    color: black;
 }
 
 QPushButton:hover {
@@ -196,7 +196,7 @@ QPushButton:pressed {
     border: none;
     text-align: left;
     padding: 10px 15px;
-    color: #4A4A4A;
+    color: black;
 }
 
 QPushButton:hover {
@@ -235,7 +235,7 @@ QPushButton:pressed {
     border: none;
     text-align: left;
     padding: 10px 15px;
-    color: #4A4A4A;
+    color: black;
 }
 
 QPushButton:hover {
@@ -274,7 +274,7 @@ QPushButton:pressed {
     border: none;
     text-align: left;
     padding: 10px 15px;
-    color: #4A4A4A;
+    color: black;
 }
 
 QPushButton:hover {
@@ -313,7 +313,7 @@ QPushButton:pressed {
     border: none;
     text-align: left;
     padding: 10px 15px;
-    color: #4A4A4A;
+    color: black;
 }
 
 QPushButton:hover {
@@ -352,7 +352,7 @@ QPushButton:pressed {
     border: none;
     text-align: left;
     padding: 10px 15px;
-    color: #4A4A4A;
+    color: black;
 }
 
 QPushButton:hover {
@@ -391,7 +391,7 @@ QPushButton:pressed {
     border: none;
     text-align: left;
     padding: 10px 15px;
-    color: #4A4A4A;
+    color: black;
 }
 
 QPushButton:hover {
@@ -509,7 +509,7 @@ QPushButton:pressed {
     </property>
     <property name="font">
      <font>
-      <family>Arial Black</family>
+      <family>Noto Sans</family>
       <pointsize>16</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -528,91 +528,16 @@ QPushButton:pressed {
       <height>2000</height>
      </rect>
     </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
     <property name="currentIndex">
-     <number>5</number>
+     <number>1</number>
     </property>
     <widget class="QWidget" name="page">
-     <widget class="QTableWidget" name="tableWidget">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>550</y>
-        <width>1000</width>
-        <height>346</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">QTableWidget{
-border:1px solid #e0e0e0;
-border-radius:12px;
-}</string>
-      </property>
-      <column>
-       <property name="text">
-        <string>Phòng</string>
-       </property>
-       <property name="font">
-        <font>
-         <family>Arial</family>
-         <pointsize>18</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Nội dung</string>
-       </property>
-       <property name="font">
-        <font>
-         <family>Arial</family>
-         <pointsize>18</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Thời gian gửi</string>
-       </property>
-       <property name="font">
-        <font>
-         <family>Arial</family>
-         <pointsize>18</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Trạng thái</string>
-       </property>
-       <property name="font">
-        <font>
-         <family>Arial</family>
-         <pointsize>18</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Thao tác</string>
-       </property>
-       <property name="font">
-        <font>
-         <family>Arial</family>
-         <pointsize>18</pointsize>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
-       </property>
-      </column>
-     </widget>
      <widget class="QLabel" name="lb_dashboard">
       <property name="geometry">
        <rect>
@@ -658,8 +583,8 @@ border-radius:12px;
      <widget class="QLineEdit" name="lne_db_room_dangthue">
       <property name="geometry">
        <rect>
-        <x>20</x>
-        <y>170</y>
+        <x>10</x>
+        <y>140</y>
         <width>340</width>
         <height>144</height>
        </rect>
@@ -682,14 +607,14 @@ color:#3B82F6;
 }</string>
       </property>
       <property name="text">
-       <string>80</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="label_5">
       <property name="geometry">
        <rect>
-        <x>40</x>
-        <y>180</y>
+        <x>30</x>
+        <y>150</y>
         <width>241</width>
         <height>41</height>
        </rect>
@@ -697,7 +622,7 @@ color:#3B82F6;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -709,8 +634,8 @@ color:#3B82F6;
      <widget class="QLineEdit" name="lne_db_room_trong">
       <property name="geometry">
        <rect>
-        <x>410</x>
-        <y>170</y>
+        <x>400</x>
+        <y>140</y>
         <width>340</width>
         <height>144</height>
        </rect>
@@ -733,14 +658,14 @@ color:#22C55E;
 }</string>
       </property>
       <property name="text">
-       <string>20</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLineEdit" name="lne_db_doanhthu">
       <property name="geometry">
        <rect>
         <x>800</x>
-        <y>170</y>
+        <y>140</y>
         <width>340</width>
         <height>144</height>
        </rect>
@@ -762,14 +687,14 @@ padding-left:15px;
 }</string>
       </property>
       <property name="text">
-       <string>120.000.000 đ</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="label_7">
       <property name="geometry">
        <rect>
-        <x>430</x>
-        <y>180</y>
+        <x>420</x>
+        <y>150</y>
         <width>241</width>
         <height>41</height>
        </rect>
@@ -777,7 +702,7 @@ padding-left:15px;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -789,8 +714,8 @@ padding-left:15px;
      <widget class="QLabel" name="label_9">
       <property name="geometry">
        <rect>
-        <x>820</x>
-        <y>180</y>
+        <x>810</x>
+        <y>150</y>
         <width>241</width>
         <height>41</height>
        </rect>
@@ -798,7 +723,7 @@ padding-left:15px;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -811,7 +736,7 @@ padding-left:15px;
       <property name="geometry">
        <rect>
         <x>200</x>
-        <y>360</y>
+        <y>320</y>
         <width>340</width>
         <height>144</height>
        </rect>
@@ -834,14 +759,14 @@ color:#DC1B1B;
 }</string>
       </property>
       <property name="text">
-       <string>5</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="label_11">
       <property name="geometry">
        <rect>
         <x>220</x>
-        <y>370</y>
+        <y>330</y>
         <width>241</width>
         <height>41</height>
        </rect>
@@ -849,7 +774,7 @@ color:#DC1B1B;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -862,7 +787,7 @@ color:#DC1B1B;
       <property name="geometry">
        <rect>
         <x>620</x>
-        <y>360</y>
+        <y>320</y>
         <width>340</width>
         <height>144</height>
        </rect>
@@ -885,14 +810,14 @@ color:#EE8433;
 }</string>
       </property>
       <property name="text">
-       <string>10</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="label_13">
       <property name="geometry">
        <rect>
-        <x>640</x>
-        <y>370</y>
+        <x>630</x>
+        <y>330</y>
         <width>241</width>
         <height>41</height>
        </rect>
@@ -900,7 +825,7 @@ color:#EE8433;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -908,6 +833,87 @@ color:#EE8433;
       <property name="text">
        <string>Hóa đơn chưa thanh toán</string>
       </property>
+     </widget>
+     <widget class="QFrame" name="frame_RecentRequests">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>480</y>
+        <width>841</width>
+        <height>291</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: white;
+    border-radius: 12px;
+    padding: 10px;
+border: 1.0 px solid black;</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="lbl_Subtitle">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>251</width>
+         <height>36</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: no</string>
+       </property>
+       <property name="text">
+        <string>Các yêu cầu mới nhất trong hệ thống</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lbl_Title">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>0</y>
+         <width>188</width>
+         <height>39</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-size: 16px;
+font-weight: bold;
+color: #2c3e50;
+border: no
+</string>
+       </property>
+       <property name="text">
+        <string>Các yêu cầu gần đây</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="verticalLayoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>60</y>
+         <width>811</width>
+         <height>221</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="layout_recent_requests"/>
+      </widget>
      </widget>
     </widget>
     <widget class="QWidget" name="page_2">
@@ -944,7 +950,7 @@ color:#EE8433;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>10</pointsize>
+        <pointsize>12</pointsize>
        </font>
       </property>
       <property name="styleSheet">
@@ -988,7 +994,7 @@ color:#3B82F6;
 }</string>
       </property>
       <property name="text">
-       <string>80</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLineEdit" name="lne_sumRoom">
@@ -1018,7 +1024,7 @@ color:#CB30E0;
 }</string>
       </property>
       <property name="text">
-       <string>100</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLineEdit" name="lne_phongTrong">
@@ -1048,7 +1054,7 @@ color: #22C55E;
 }</string>
       </property>
       <property name="text">
-       <string>20</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="label_20">
@@ -1063,7 +1069,7 @@ color: #22C55E;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -1084,7 +1090,7 @@ color: #22C55E;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -1105,7 +1111,7 @@ color: #22C55E;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -1494,7 +1500,7 @@ color:#CB30E0;
 }</string>
       </property>
       <property name="text">
-       <string>150</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="label_16">
@@ -1509,7 +1515,7 @@ color:#CB30E0;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -1566,7 +1572,7 @@ color:#DC1B1B;
 }</string>
       </property>
       <property name="text">
-       <string>0</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="label_21">
@@ -1581,7 +1587,7 @@ color:#DC1B1B;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -1953,7 +1959,7 @@ QTableWidget::item{
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>10</pointsize>
+        <pointsize>12</pointsize>
        </font>
       </property>
       <property name="styleSheet">
@@ -2020,7 +2026,7 @@ color:#CB30E0;
 }</string>
       </property>
       <property name="text">
-       <string>80</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="label_23">
@@ -2035,7 +2041,7 @@ color:#CB30E0;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -2071,7 +2077,7 @@ color: #FFC229;
 }</string>
       </property>
       <property name="text">
-       <string>0</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="label_25">
@@ -2086,7 +2092,7 @@ color: #FFC229;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -2122,7 +2128,7 @@ color:#22C55E;
 }</string>
       </property>
       <property name="text">
-       <string>80</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="label_24">
@@ -2137,7 +2143,7 @@ color:#22C55E;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -2173,7 +2179,7 @@ color:#DC1B1B;
 }</string>
       </property>
       <property name="text">
-       <string>0</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="label_26">
@@ -2188,7 +2194,7 @@ color:#DC1B1B;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -2505,7 +2511,7 @@ QTableWidget::item{
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>10</pointsize>
+        <pointsize>12</pointsize>
        </font>
       </property>
       <property name="styleSheet">
@@ -2572,7 +2578,7 @@ color:#DC1B1B;
 }</string>
       </property>
       <property name="text">
-       <string>25000</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLineEdit" name="lne_eCost">
@@ -2602,7 +2608,7 @@ color:#CB30E0;
 }</string>
       </property>
       <property name="text">
-       <string>3500</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="label_29">
@@ -2617,7 +2623,7 @@ color:#CB30E0;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -2638,7 +2644,7 @@ color:#CB30E0;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -3013,7 +3019,7 @@ QTableWidget::item{
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>10</pointsize>
+        <pointsize>11</pointsize>
        </font>
       </property>
       <property name="styleSheet">
@@ -3080,7 +3086,7 @@ color: #22C55E;
 }</string>
       </property>
       <property name="text">
-       <string>20</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="label_35">
@@ -3095,7 +3101,7 @@ color: #22C55E;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -3131,7 +3137,7 @@ color:#CB30E0;
 }</string>
       </property>
       <property name="text">
-       <string>100</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="label_33">
@@ -3146,7 +3152,7 @@ color:#CB30E0;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -3182,7 +3188,7 @@ color:#3B82F6;
 }</string>
       </property>
       <property name="text">
-       <string>80</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="label_34">
@@ -3197,7 +3203,7 @@ color:#3B82F6;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -3572,7 +3578,7 @@ QTableWidget::item{
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>10</pointsize>
+        <pointsize>12</pointsize>
        </font>
       </property>
       <property name="styleSheet">
@@ -3601,7 +3607,7 @@ QTableWidget::item{
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>10</pointsize>
+        <pointsize>12</pointsize>
        </font>
       </property>
       <property name="styleSheet">
@@ -3668,7 +3674,7 @@ color:#CB30E0;
 }</string>
       </property>
       <property name="text">
-       <string>5</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLineEdit" name="lne_notRequest">
@@ -3698,7 +3704,7 @@ color:#DC1B1B;
 }</string>
       </property>
       <property name="text">
-       <string>2</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="label_41">
@@ -3713,7 +3719,7 @@ color:#DC1B1B;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -3734,7 +3740,7 @@ color:#DC1B1B;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -3770,7 +3776,7 @@ color:#22C55E;
 }</string>
       </property>
       <property name="text">
-       <string>2</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="label_39">
@@ -3785,7 +3791,7 @@ color:#22C55E;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -3821,7 +3827,7 @@ color: #FFC229;
 }</string>
       </property>
       <property name="text">
-       <string>1</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="label_40">
@@ -3836,7 +3842,7 @@ color: #FFC229;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -3875,11 +3881,6 @@ QTableWidget::item{
     padding:8px;
 }</string>
       </property>
-      <row>
-       <property name="text">
-        <string>1</string>
-       </property>
-      </row>
       <row>
        <property name="text">
         <string>New Row</string>
@@ -3947,167 +3948,6 @@ QTableWidget::item{
         </font>
        </property>
       </column>
-      <item row="0" column="0">
-       <property name="text">
-        <string>A101</string>
-       </property>
-       <property name="font">
-        <font>
-         <family>Arial</family>
-         <pointsize>12</pointsize>
-        </font>
-       </property>
-       <property name="textAlignment">
-        <set>AlignCenter</set>
-       </property>
-      </item>
-      <item row="0" column="1">
-       <property name="text">
-        <string>Nguyễn Văn A</string>
-       </property>
-       <property name="font">
-        <font>
-         <family>Arial</family>
-         <pointsize>12</pointsize>
-        </font>
-       </property>
-       <property name="textAlignment">
-        <set>AlignCenter</set>
-       </property>
-      </item>
-      <item row="0" column="2">
-       <property name="text">
-        <string>8/3/2026</string>
-       </property>
-       <property name="font">
-        <font>
-         <family>Arial</family>
-         <pointsize>12</pointsize>
-        </font>
-       </property>
-       <property name="textAlignment">
-        <set>AlignCenter</set>
-       </property>
-      </item>
-      <item row="0" column="3">
-       <property name="text">
-        <string>Chưa xử lý</string>
-       </property>
-       <property name="font">
-        <font>
-         <family>Arial</family>
-         <pointsize>12</pointsize>
-        </font>
-       </property>
-       <property name="textAlignment">
-        <set>AlignCenter</set>
-       </property>
-      </item>
-      <item row="1" column="0">
-       <property name="text">
-        <string>A102</string>
-       </property>
-       <property name="font">
-        <font>
-         <family>Arial</family>
-         <pointsize>12</pointsize>
-        </font>
-       </property>
-       <property name="textAlignment">
-        <set>AlignCenter</set>
-       </property>
-       <property name="foreground">
-        <brush brushstyle="NoBrush">
-         <color alpha="255">
-          <red>3</red>
-          <green>0</green>
-          <blue>0</blue>
-         </color>
-        </brush>
-       </property>
-      </item>
-      <item row="1" column="1">
-       <property name="text">
-        <string>Trần Thị B</string>
-       </property>
-       <property name="font">
-        <font>
-         <family>Arial</family>
-         <pointsize>12</pointsize>
-        </font>
-       </property>
-       <property name="textAlignment">
-        <set>AlignCenter</set>
-       </property>
-      </item>
-      <item row="1" column="2">
-       <property name="text">
-        <string>4/3/2026</string>
-       </property>
-       <property name="font">
-        <font>
-         <family>Arial</family>
-         <pointsize>12</pointsize>
-        </font>
-       </property>
-       <property name="textAlignment">
-        <set>AlignCenter</set>
-       </property>
-      </item>
-      <item row="1" column="3">
-       <property name="text">
-        <string>Chưa xử lý</string>
-       </property>
-       <property name="font">
-        <font>
-         <family>Arial</family>
-         <pointsize>12</pointsize>
-        </font>
-       </property>
-       <property name="textAlignment">
-        <set>AlignCenter</set>
-       </property>
-      </item>
-      <item row="2" column="0">
-       <property name="text">
-        <string>B102</string>
-       </property>
-      </item>
-      <item row="2" column="1">
-       <property name="text">
-        <string>Võ Văn C</string>
-       </property>
-      </item>
-      <item row="2" column="2">
-       <property name="text">
-        <string>1/3/2026</string>
-       </property>
-      </item>
-      <item row="2" column="3">
-       <property name="text">
-        <string>Đang xử lý</string>
-       </property>
-      </item>
-      <item row="3" column="0">
-       <property name="text">
-        <string>B105</string>
-       </property>
-      </item>
-      <item row="3" column="1">
-       <property name="text">
-        <string>Hồ Thị D</string>
-       </property>
-      </item>
-      <item row="3" column="2">
-       <property name="text">
-        <string>22/2/2026</string>
-       </property>
-      </item>
-      <item row="3" column="3">
-       <property name="text">
-        <string>Đã xử lý</string>
-       </property>
-      </item>
      </widget>
      <widget class="QLabel" name="label_42">
       <property name="geometry">
@@ -4180,7 +4020,7 @@ color:#CB30E0;
 }</string>
       </property>
       <property name="text">
-       <string>2</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLineEdit" name="lne_unaStaff">
@@ -4210,7 +4050,7 @@ color: black;
 }</string>
       </property>
       <property name="text">
-       <string>0</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="label_45">
@@ -4225,7 +4065,7 @@ color: black;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -4246,7 +4086,7 @@ color: black;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -4282,7 +4122,7 @@ color:#22C55E;
 }</string>
       </property>
       <property name="text">
-       <string>2</string>
+       <string/>
       </property>
      </widget>
      <widget class="QLabel" name="label_44">
@@ -4297,7 +4137,7 @@ color:#22C55E;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -4636,7 +4476,7 @@ color:#22C55E;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -4687,7 +4527,7 @@ color:#CB30E0;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -4738,7 +4578,7 @@ color: #6E9CE7;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -4818,7 +4658,7 @@ padding-left:15px;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -4839,7 +4679,7 @@ padding-left:15px;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -4890,7 +4730,7 @@ color:#EE8433;
       <property name="font">
        <font>
         <family>Arial</family>
-        <pointsize>12</pointsize>
+        <pointsize>14</pointsize>
         <weight>75</weight>
         <bold>true</bold>
        </font>
@@ -5178,7 +5018,7 @@ QTableWidget::item{
      <widget class="QLabel" name="label_57">
       <property name="geometry">
        <rect>
-        <x>20</x>
+        <x>30</x>
         <y>30</y>
         <width>481</width>
         <height>91</height>
@@ -5684,19 +5524,94 @@ QTableWidget::item{
      <widget class="QLabel" name="label_60">
       <property name="geometry">
        <rect>
-        <x>180</x>
-        <y>240</y>
+        <x>190</x>
+        <y>230</y>
         <width>101</width>
         <height>31</height>
        </rect>
       </property>
       <property name="font">
        <font>
-        <pointsize>18</pointsize>
+        <pointsize>-1</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
        </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: black;
+font-size: 18px;
+font-weight: bold;</string>
       </property>
       <property name="text">
        <string>Admin</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lbl_avatar">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>230</y>
+        <width>80</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>80</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>80</width>
+        <height>80</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 30px;</string>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>270</y>
+        <width>113</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #e25b5b;
+    color: white;
+    border-radius: 15px;
+    padding: 6px 12px;
+    font-weight: bold;
+    border: none;
+}
+
+QPushButton:hover {
+    background-color: #d94a4a;
+}</string>
+      </property>
+      <property name="text">
+       <string>Chủ trọ</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_addprofile">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>330</y>
+        <width>151</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Thêm ảnh đại diện</string>
       </property>
      </widget>
     </widget>
@@ -5726,7 +5641,7 @@ font-color:black;
      <x>0</x>
      <y>0</y>
      <width>1440</width>
-     <height>21</height>
+     <height>37</height>
     </rect>
    </property>
   </widget>

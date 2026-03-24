@@ -104,9 +104,10 @@ class addInfo_Room:
             
         with open("data/rooms.json", "w", encoding="utf-8") as f:
             json.dump(rooms, f, ensure_ascii=False, indent=4)
+        
+        self.admin.load_table_json(self.admin.tableWidget_Room,"data/rooms.json","room")
         QMessageBox.information(self, "Thông báo", "Chỉnh sửa phòng thành công!")
         self.close()
-        self.admin.load_table_json(self.admin.tableWidget_Room,"data/rooms.json","room")
         self.admin.update_room_stats()
         
         
